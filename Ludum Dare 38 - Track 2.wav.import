@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce52qnjt74jgh"
+path="res://.godot/imported/Ludum Dare 38 - Track 2.wav-b25a20d45c6384f25a0510f7ea04d99a.sample"
+
+[deps]
+
+source_file="res://Labs/infinite_runner/Ludum Dare 38 - Track 2.wav"
+dest_files=["res://.godot/imported/Ludum Dare 38 - Track 2.wav-b25a20d45c6384f25a0510f7ea04d99a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
