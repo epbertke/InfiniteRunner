@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhv7habpmqjpy"]
+
+[ext_resource type="PackedScene" uid="uid://bokhqxe2v15jj" path="res://Labs/11/PinPaddle.tscn" id="1_5qyme"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6tl2b"]
+
+[node name="pinballStarter" type="Node3D"]
+
+[node name="PinPaddle" parent="." instance=ExtResource("1_5qyme")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.499792, 0, 1.48931)
+rotatePower = 10.0
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 814.276, -437.317, 262.406)
+fov = 64.6875
+
+[node name="DirectionalLight2D" type="DirectionalLight3D" parent="."]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(-0.118258, -0.199142, 0.972809, -0.989013, -0.0638921, -0.133307, 0.0887019, -0.977886, -0.189398, -304.338, -578.096, -293.214)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -141.085, 706.967, 444.215)
+shape = SubResource("BoxShape3D_6tl2b")
